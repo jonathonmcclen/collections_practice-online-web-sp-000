@@ -36,7 +36,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  new_array = array.collect {|i| i.start_with?("a")? i :}
+  new_array = array.collect {|i| i.start_with?("a")? i : nil}
+  new_array.delete_if
 end
 
 def sum_array(array)
