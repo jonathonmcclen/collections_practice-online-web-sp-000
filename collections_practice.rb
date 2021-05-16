@@ -37,7 +37,7 @@ end
 
 def find_a(array)
   new_array = array.collect {|i| i.start_with?("a")? i : nil}
-  new_array.delete_if
+  new_array.delete_if { |s| s == nil}
 end
 
 def sum_array(array)
