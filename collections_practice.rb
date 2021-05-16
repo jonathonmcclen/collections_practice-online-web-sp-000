@@ -28,7 +28,9 @@ end
 
 def find_a(array)
   new_array = array.collect do |i|
-    if i.find(/[a]/)
+    if i.find(/^a[a-z]+/)
+      
+    end
   end 
 end
 
