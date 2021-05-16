@@ -27,11 +27,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  new_array = array.collect { |i| i.match}
-    if i.find(/^a[a-z]+/)
-      
-    end
-  end 
+  new_array = array.collect { |i| i.match(/^a[a-z]+/)
 end
 
 def sum_array(array)
